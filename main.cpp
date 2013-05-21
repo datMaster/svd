@@ -155,7 +155,6 @@ int main(int argc, char *argv[])
             out_stream << "\n";
         }
 
-
         size_t imaxU = nn, jmaxW = 3;
         gsl_matrix *UxW = gsl_matrix_alloc(imaxU, jmaxW);
         gsl_matrix *UxWxV = gsl_matrix_alloc(UxW->size1, Vm->size1);
